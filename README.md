@@ -4,6 +4,7 @@
 * 简单实现SpringIoc原理
 * 简易线程池
 * 实现HashMap原理
+* 实现LRU Cache
 
 ## 技术讨论 & [博客地址](https://www.jacknolfskin.top/)
 

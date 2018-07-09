@@ -5,6 +5,7 @@ import java.lang.reflect.InvocationTargetException;
 /**
  * @author feihu5
  * @date 2018/7/4 15:22
+ * 动手写Spring IOC
  */
 public class MasterPrediction {
     public static void main(String args[]) throws ClassNotFoundException, NoSuchMethodException, InstantiationException, IllegalAccessException, InvocationTargetException {

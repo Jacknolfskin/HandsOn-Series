@@ -3,6 +3,7 @@ package com.personal.handson.threadpool;
 /**
  * @author feihu5
  * @date 2018/7/4 10:21
+ * 动手写Java 线程池
  */
 public class ThreadPoolTest {
 
@@ -17,7 +18,6 @@ public class ThreadPoolTest {
 
             }
         };
-
 
         ThreadPoolInterface ti = new ThreadFixPoolImpl();
         for (int i = 0; i < 1000; i++) {
