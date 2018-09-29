@@ -1,23 +1,19 @@
 package com.personal.handson.aio.chat;
 
-/**
- * @Auther: ifly
- * @Date: 2018/9/29 15:29
- * @Description:
- */
-
 import java.net.InetSocketAddress;
-import java.nio.ByteBuffer;
 import java.nio.channels.AsynchronousChannelGroup;
 import java.nio.channels.AsynchronousServerSocketChannel;
 import java.nio.channels.AsynchronousSocketChannel;
-import java.nio.channels.CompletionHandler;
-import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+/**
+ * @Auther: ifly
+ * @Date: 2018/9/29 15:29
+ * @Description:
+ */
 public class AIOServer {
     static final int PORT = 30000;
     final static String UTF_8 = "utf-8";

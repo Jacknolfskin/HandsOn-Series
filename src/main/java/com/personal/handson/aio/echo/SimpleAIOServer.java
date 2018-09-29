@@ -1,10 +1,5 @@
 package com.personal.handson.aio.echo;
 
-/**
- * @Auther: ifly
- * @Date: 2018/9/29 15:27
- * @Description:
- */
 
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
@@ -12,6 +7,11 @@ import java.nio.channels.AsynchronousServerSocketChannel;
 import java.nio.channels.AsynchronousSocketChannel;
 import java.util.concurrent.Future;
 
+/**
+ * @Auther: ifly
+ * @Date: 2018/9/29 15:27
+ * @Description:
+ */
 public class SimpleAIOServer {
     static final int PORT = 30000;
 

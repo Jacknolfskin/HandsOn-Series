@@ -1,11 +1,5 @@
 package com.personal.handson.aio.chat;
 
-/**
- * @Auther: ifly
- * @Date: 2018/9/29 15:29
- * @Description:
- */
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -18,7 +12,11 @@ import java.nio.charset.StandardCharsets;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-
+/**
+ * @Auther: ifly
+ * @Date: 2018/9/29 15:29
+ * @Description:
+ */
 public class AIOClient {
     final static String UTF_8 = "utf-8";
     final static int PORT = 30000;

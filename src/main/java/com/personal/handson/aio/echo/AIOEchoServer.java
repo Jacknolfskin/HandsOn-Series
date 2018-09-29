@@ -1,10 +1,5 @@
 package com.personal.handson.aio.echo;
 
-/**
- * @Auther: ifly
- * @Date: 2018/9/29 15:21
- * @Description:
- */
 import java.io.IOException;
 import java.net.InetSocketAddress;
 import java.nio.ByteBuffer;
@@ -16,11 +11,15 @@ import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
+/**
+ * @Auther: ifly
+ * @Date: 2018/9/29 15:21
+ * @Description:
+ */
 public class AIOEchoServer {
 
     public final static int PORT = 8001;
     public final static String IP = "127.0.0.1";
-
 
     private AsynchronousServerSocketChannel server = null;
 
@@ -91,6 +90,5 @@ public class AIOEchoServer {
             }
         }
     }
-
 }
 
