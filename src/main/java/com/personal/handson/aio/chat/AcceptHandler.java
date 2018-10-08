@@ -7,7 +7,7 @@ import java.nio.channels.CompletionHandler;
 import java.nio.charset.StandardCharsets;
 
 /**
- * @Auther: ifly
+ * @Auther: feihu5
  * @Date: 2018/9/29 15:50
  * @Description: 实现自己的CompletionHandler类
  */
