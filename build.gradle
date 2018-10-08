@@ -10,9 +10,10 @@ buildscript {
 	}
 }
 
+
 apply plugin: 'java'
 apply plugin: 'eclipse'
-apply plugin: 'org.springframework.boot'
+apply plugin: "spring-boot"
 apply plugin: 'io.spring.dependency-management'
 
 group = 'com.personal.handson'
@@ -20,13 +21,13 @@ version = '0.0.1-SNAPSHOT'
 sourceCompatibility = 1.8
 
 repositories {
-	mavenCentral()
+    mavenCentral()
 }
 
 
 dependencies {
-	// https://mvnrepository.com/artifact/redis.clients/jedis
 	compile group: 'redis.clients', name: 'jedis', version: '2.9.0'
 	compile('org.springframework.boot:spring-boot-starter')
+	compile group: 'org.projectlombok', name: 'lombok', version: '1.18.2'
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
