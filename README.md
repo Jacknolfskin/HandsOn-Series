@@ -8,6 +8,7 @@
 * 实现LRU Cache
 * AIO实现回声服务器和简易聊天室
 * 多线程文本转化(3s内转化近600M文本)
+* Shell工具脚本
 
 ## 技术讨论 & [博客地址](https://www.jacknolfskin.top/)
 
